@@ -19,13 +19,19 @@ Nous traitons ensuite les données avec le script NodeJs **transform.js** dispon
 Notre base se situe à l'adresse suivante : [liris-ktbs01.insa-lyon.fr:8000/public/master-ia-2016/zguyl/](https://liris-ktbs01.insa-lyon.fr:8000/public/master-ia-2016/zguyl/)
 
 ### Transformation des données <a name="markdown-header-transformation-des-données"></a>
+TODO
 
 ### Mise en place de la structure dans kTBS <a name="#markdown-header-mise-en-place-de-la-structure-dans-ktbs"></a>
+TODO
 
 ### Mise en place des transformations <a name="#markdown-header-mise-en-place-des-transformations"></a>
+TODO
 
 ### Visualisation des données <a name="#markdown-header-visualisation-des-données"></a>
+TODO
 
 ### Analyse des données <a name="#markdown-header-analyse-des-données"></a>
+TODO
 
 ### Conclusion <a name="#markdown-header-conclusion"></a>
+TODO
