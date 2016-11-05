@@ -3,7 +3,7 @@ Par [Bastien Guyl](http://bastien.guyl.me) et [Marc Zominy](https://github.com/z
 
 ### Sommaire
 * [Présentation du projet](#markdown-header-présentation-du-projet)
-* [Transformation des données](#markdown-header-transformation-des-données)
+* [Transformation des données](#markdown-header-transformation-des-donnees)
 
 ### Présentation du projet <a name="markdown-header-présentation-du-projet"></a>
 
@@ -14,4 +14,4 @@ Nous traitons ensuite les données avec le script NodeJs **transform.js** dispon
 
 Notre base se situe à l'adresse suivante : liris-ktbs01.insa-lyon.fr:8000/public/master-ia-2016/zguyl/](https://liris-ktbs01.insa-lyon.fr:8000/public/master-ia-2016/zguyl/)
 
-### Transformation des données <a name="markdown-header-transformation-des-données"></a>
+### Transformation des données
