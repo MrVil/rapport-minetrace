@@ -1,0 +1,317 @@
+[
+    {
+        "@id": "518",
+        "@type": "m:Mining",
+        "begin": 1477059889666,
+        "end": 1477059889818,
+        "hasSourceObsel": [
+            "../filteredDatcu/517",
+            "../filteredDatcu/518"
+        ],
+        "m:itemName": "STONE",
+        "m:playerName": "Datcu",
+        "m:x": 484,
+        "m:y": 8,
+        "m:z": 28
+    },
+    {
+        "@id": "530",
+        "@type": "m:Mining",
+        "begin": 1477059902642,
+        "end": 1477059904396,
+        "hasSourceObsel": [
+            "../filteredDatcu/529",
+            "../filteredDatcu/530"
+        ],
+        "m:itemName": "STONE",
+        "m:playerName": "Datcu",
+        "m:x": 484,
+        "m:y": 8,
+        "m:z": 31
+    },
+    {
+        "@id": "541",
+        "@type": "m:Mining",
+        "begin": 1477059916776,
+        "end": 1477059917478,
+        "hasSourceObsel": [
+            "../filteredDatcu/540",
+            "../filteredDatcu/541"
+        ],
+        "m:itemName": "STONE",
+        "m:playerName": "Datcu",
+        "m:x": 484,
+        "m:y": 9,
+        "m:z": 33
+    },
+    {
+        "@id": "547",
+        "@type": "m:Mining",
+        "begin": 1477059931891,
+        "end": 1477059932394,
+        "hasSourceObsel": [
+            "../filteredDatcu/546",
+            "../filteredDatcu/547"
+        ],
+        "m:itemName": "REDSTONE",
+        "m:playerName": "Datcu",
+        "m:x": 484,
+        "m:y": 7,
+        "m:z": 32
+    },
+    {
+        "@id": "551",
+        "@type": "m:Mining",
+        "begin": 1477059935651,
+        "end": 1477059936555,
+        "hasSourceObsel": [
+            "../filteredDatcu/550",
+            "../filteredDatcu/551"
+        ],
+        "m:itemName": "REDSTONE",
+        "m:playerName": "Datcu",
+        "m:x": 483,
+        "m:y": 6,
+        "m:z": 32
+    },
+    {
+        "@id": "553",
+        "@type": "m:Mining",
+        "begin": 1477059937753,
+        "end": 1477059938255,
+        "hasSourceObsel": [
+            "../filteredDatcu/552",
+            "../filteredDatcu/553"
+        ],
+        "m:itemName": "REDSTONE",
+        "m:playerName": "Datcu",
+        "m:x": 483,
+        "m:y": 7,
+        "m:z": 31
+    },
+    {
+        "@id": "556",
+        "@type": "m:Mining",
+        "begin": 1477059939958,
+        "end": 1477059940012,
+        "hasSourceObsel": [
+            "../filteredDatcu/555",
+            "../filteredDatcu/556"
+        ],
+        "m:itemName": "REDSTONE",
+        "m:playerName": "Datcu",
+        "m:x": 484,
+        "m:y": 6,
+        "m:z": 31
+    },
+    {
+        "@id": "559",
+        "@type": "m:Mining",
+        "begin": 1477059941460,
+        "end": 1477059942463,
+        "hasSourceObsel": [
+            "../filteredDatcu/558",
+            "../filteredDatcu/559"
+        ],
+        "m:itemName": "REDSTONE",
+        "m:playerName": "Datcu",
+        "m:x": 484,
+        "m:y": 5,
+        "m:z": 32
+    },
+    {
+        "@id": "580",
+        "@type": "m:Mining",
+        "begin": 1477059974108,
+        "end": 1477059974611,
+        "hasSourceObsel": [
+            "../filteredDatcu/579",
+            "../filteredDatcu/580"
+        ],
+        "m:itemName": "DIAMOND",
+        "m:playerName": "Datcu",
+        "m:x": 487,
+        "m:y": 8,
+        "m:z": 26
+    },
+    {
+        "@id": "582",
+        "@type": "m:Mining",
+        "begin": 1477059977063,
+        "end": 1477059977565,
+        "hasSourceObsel": [
+            "../filteredDatcu/581",
+            "../filteredDatcu/582"
+        ],
+        "m:itemName": "DIAMOND",
+        "m:playerName": "Datcu",
+        "m:x": 488,
+        "m:y": 8,
+        "m:z": 26
+    },
+    {
+        "@id": "589",
+        "@type": "m:Mining",
+        "begin": 1477059993156,
+        "end": 1477059993358,
+        "hasSourceObsel": [
+            "../filteredDatcu/588",
+            "../filteredDatcu/589"
+        ],
+        "m:itemName": "STONE",
+        "m:playerName": "Datcu",
+        "m:x": 485,
+        "m:y": 12,
+        "m:z": 26
+    },
+    {
+        "@id": "2003",
+        "@type": "m:Mining",
+        "begin": 1477066927809,
+        "end": 1477066928311,
+        "hasSourceObsel": [
+            "../filteredDatcu/2002",
+            "../filteredDatcu/2003"
+        ],
+        "m:itemName": "STONE",
+        "m:playerName": "Datcu",
+        "m:x": 486,
+        "m:y": 8,
+        "m:z": 20
+    },
+    {
+        "@id": "2010",
+        "@type": "m:Mining",
+        "begin": 1477066931414,
+        "end": 1477066931467,
+        "hasSourceObsel": [
+            "../filteredDatcu/2009",
+            "../filteredDatcu/2010"
+        ],
+        "m:itemName": "STONE",
+        "m:playerName": "Datcu",
+        "m:x": 485,
+        "m:y": 8,
+        "m:z": 23
+    },
+    {
+        "@id": "2018",
+        "@type": "m:Mining",
+        "begin": 1477066936822,
+        "end": 1477066937025,
+        "hasSourceObsel": [
+            "../filteredDatcu/2017",
+            "../filteredDatcu/2018"
+        ],
+        "m:itemName": "STONE",
+        "m:playerName": "Datcu",
+        "m:x": 487,
+        "m:y": 8,
+        "m:z": 21
+    },
+    {
+        "@id": "2021",
+        "@type": "m:Mining",
+        "begin": 1477066937723,
+        "end": 1477066938227,
+        "hasSourceObsel": [
+            "../filteredDatcu/2020",
+            "../filteredDatcu/2021"
+        ],
+        "m:itemName": "STONE",
+        "m:playerName": "Datcu",
+        "m:x": 488,
+        "m:y": 8,
+        "m:z": 21
+    },
+    {
+        "@id": "2023",
+        "@type": "m:Mining",
+        "begin": 1477066938624,
+        "end": 1477066939127,
+        "hasSourceObsel": [
+            "../filteredDatcu/2022",
+            "../filteredDatcu/2023"
+        ],
+        "m:itemName": "STONE",
+        "m:playerName": "Datcu",
+        "m:x": 489,
+        "m:y": 8,
+        "m:z": 21
+    },
+    {
+        "@id": "2027",
+        "@type": "m:Mining",
+        "begin": 1477066943980,
+        "end": 1477066944884,
+        "hasSourceObsel": [
+            "../filteredDatcu/2026",
+            "../filteredDatcu/2027"
+        ],
+        "m:itemName": "DIAMOND",
+        "m:playerName": "Datcu",
+        "m:x": 488,
+        "m:y": 7,
+        "m:z": 25
+    },
+    {
+        "@id": "2030",
+        "@type": "m:Mining",
+        "begin": 1477066946884,
+        "end": 1477066947803,
+        "hasSourceObsel": [
+            "../filteredDatcu/2029",
+            "../filteredDatcu/2030"
+        ],
+        "m:itemName": "DIAMOND",
+        "m:playerName": "Datcu",
+        "m:x": 488,
+        "m:y": 6,
+        "m:z": 25
+    },
+    {
+        "@id": "2069",
+        "@type": "m:Mining",
+        "begin": 1477066967520,
+        "end": 1477066968023,
+        "hasSourceObsel": [
+            "../filteredDatcu/2068",
+            "../filteredDatcu/2069"
+        ],
+        "m:itemName": "STONE",
+        "m:playerName": "Datcu",
+        "m:x": 490,
+        "m:y": 8,
+        "m:z": 22
+    },
+    {
+        "@id": "2071",
+        "@type": "m:Mining",
+        "begin": 1477066968422,
+        "end": 1477066968924,
+        "hasSourceObsel": [
+            "../filteredDatcu/2070",
+            "../filteredDatcu/2071"
+        ],
+        "m:itemName": "STONE",
+        "m:playerName": "Datcu",
+        "m:x": 490,
+        "m:y": 8,
+        "m:z": 21
+    },
+    {
+        "@id": "2073",
+        "@type": "m:Mining",
+        "begin": 1477066969323,
+        "end": 1477066969825,
+        "hasSourceObsel": [
+            "../filteredDatcu/2072",
+            "../filteredDatcu/2073"
+        ],
+        "m:itemName": "STONE",
+        "m:playerName": "Datcu",
+        "m:x": 491,
+        "m:y": 8,
+        "m:z": 21
+    }
+]
