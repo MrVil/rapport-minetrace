@@ -3,7 +3,7 @@ Par [Bastien Guyl](http://bastien.guyl.me) et [Marc Zominy](https://github.com/z
 
 ### Sommaire
 * [Présentation du projet](#markdown-header-présentation-du-projet)
-* [Transformation des données(#markdown-header-transformation-des-données)
+* [Transformation des données](#markdown-header-transformation-des-données)
 
 ### Présentation du projet 
 
