@@ -5,7 +5,7 @@ Par [Bastien Guyl](http://bastien.guyl.me) et [Marc Zominy](https://github.com/z
 * [Présentation du projet](#markdown-header-présentation-du-projet)
 * [Transformation des données](#markdown-header-transformation-des-données)
 
-### Présentation du projet 
+### Présentation du projet <a name="markdown-header-présentation-du-projet"></a>
 
 Ceci est le rapport d'un [projet](http://liris.cnrs.fr/~pchampin/2016/m2ia-knodyn/project.html) de cours de *Dynamique des connaissances* en Master 2 en Intelligence Artificielle de l'Université Claude Bernard Lyon 1.
 
