@@ -190,6 +190,11 @@ Voici comment utiliser le script
 ### Mise en place des transformations <a name="markdown-header-mise-en-place-des-transformations"></a>
 Nous avons choisi d'analyser le minage des ressources précieuses du jeu.
 
+Voici l'automate utilisé pour créer une couche d'abstraction supplémentaire concernant le minagedes ressources :
+![fsa](FSA.png)
+
+Et voici sa description en JSON pour l'utilisation de FSA4stream :
+
 ```json
 {
     "allow_overlap": true,
@@ -260,14 +265,14 @@ Pour le lancer, il est nécessaire d'installer [Python3.5.X](https://www.python.
 
 `python script.py`
 
-![Résultat du script 2D]()
+![Résultat du script 2D](result.png)
 
 Nous avons en axis, la position en X et en ordonné la position en Y (profondeur) du bloc miné. 
 La couleur correspond au type du bloc.
 
 `python script3d.py`
 
-![Résultat du script 3D]()
+![Résultat du script 3D](result3d.png)
 
 
 ### Analyse des données <a name="markdown-header-analyse-des-données"></a>
