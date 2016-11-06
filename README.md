@@ -226,7 +226,7 @@ Et voici sa description en JSON pour l'utilisation de FSA4stream :
     }
 }
 ```
-La commande à envoyer pour un FSA :
+**La commande à envoyer pour un FSA** :
 
 ``` json
 {
@@ -238,7 +238,7 @@ La commande à envoyer pour un FSA :
 }
 ```
 
-**Filtrer par le pseudo du joueur**
+**Filtrer par le pseudo du joueur** :
 
 ```json
 {
@@ -249,6 +249,17 @@ La commande à envoyer pour un FSA :
     "parameter": [ 
         "bgp=?obs m:playerName \"Datcu\""
     ]
+}
+```
+
+**Fusion**
+```json
+{
+    "@id": "fusionedMarc1/",
+    "@type": "ComputedTrace",
+    "hasMethod": "fusion",
+    "hasSource": [ "fsaTardi/", "fsaDatcu4/" ],
+    "parameter": [ "model=model1", "origin=fsaTardi/" ]
 }
 ```
 
