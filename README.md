@@ -225,41 +225,10 @@ Et voici sa description en JSON pour l'utilisation de FSA4stream :
         }
     }
 }
-
-
-{
-    "allow_overlap": true,
-    "states": {
-        "start": {
-            "transitions": [{
-                "condition": "#BlockBreak",
-                "target": "check_pickup"
-            }]
-        },
-        "check_pickup": {
-            "transitions": [{
-                "condition": "?obs a m:PickupItem . ?obs m:itemName ?s1 . ?pred m:blockName ?s1 .",
-                "matcher": "sparql-ask",
-                "target": "success"
-            }]
-        },
-        "success": {
-            "terminal": true,
-            "ktbs_obsel_type": "#Mining",
-            "ktbs_attributes": {
-                "#x": "first #x",
-                "#y": "first #y",
-                "#z": "first #z",
-                "#playerName": "first #playerName",
-                "#itemName": "first #blockName"
-            }
-        }
-    }
-}
 ```
 
 ### Visualisation des données <a name="markdown-header-visualisation-des-données"></a>
-Pour visualiser les données, des scripts python sont disponibles dans le répertoire [output_scripts](output_scripts/).
+Pour visualiser les données, des scripts python sont disponibles dans le répertoire [output_script](https://github.com/MrVil/rapport-minetrace/tree/master/output_script/).
 
 Pour le lancer, il est nécessaire d'installer [Python3.5.X](https://www.python.org/) et [Numpy](http://www.numpy.org/)
 
