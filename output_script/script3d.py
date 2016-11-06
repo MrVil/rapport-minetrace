@@ -36,12 +36,12 @@ for i in range(len(obsels) - 1, -1, -1):
         #         ax.plot_surface([10, 20, 20, 10], [10, 10, 20, 20], [10, 10, 10, 10], color=color, facecolors=color)
         r = [0,1]
         X, Y = np.meshgrid(r, r)
-        ax.plot_surface(X + obsels[i]["m:x"],Y + obsels[i]["m:y"],1 + obsels[i]["m:z"], alpha=0.75, color = color, linewidths=0)
-        ax.plot_surface(X + obsels[i]["m:x"],Y + obsels[i]["m:y"],0 + obsels[i]["m:z"], alpha=0.75, color = color, linewidths=0)
-        ax.plot_surface(X + obsels[i]["m:x"],0 + obsels[i]["m:y"],Y + obsels[i]["m:z"], alpha=0.75, color = color, linewidths=0)
-        ax.plot_surface(X + obsels[i]["m:x"],1 + obsels[i]["m:y"],Y + obsels[i]["m:z"], alpha=0.75, color = color, linewidths=0)
-        ax.plot_surface(1 + obsels[i]["m:x"],X + obsels[i]["m:y"],Y + obsels[i]["m:z"], alpha=0.75, color = color, linewidths=0)
-        ax.plot_surface(0 + obsels[i]["m:x"],X + obsels[i]["m:y"],Y + obsels[i]["m:z"], alpha=0.75, color = color, linewidths=0)
+        ax.plot_surface(X + obsels[i]["m:x"],Y + obsels[i]["m:z"],1 + obsels[i]["m:y"], alpha=0.75, color = color, linewidths=0)
+        ax.plot_surface(X + obsels[i]["m:x"],Y + obsels[i]["m:z"],0 + obsels[i]["m:y"], alpha=0.75, color = color, linewidths=0)
+        ax.plot_surface(X + obsels[i]["m:x"],0 + obsels[i]["m:z"],Y + obsels[i]["m:y"], alpha=0.75, color = color, linewidths=0)
+        ax.plot_surface(X + obsels[i]["m:x"],1 + obsels[i]["m:z"],Y + obsels[i]["m:y"], alpha=0.75, color = color, linewidths=0)
+        ax.plot_surface(1 + obsels[i]["m:x"],X + obsels[i]["m:z"],Y + obsels[i]["m:y"], alpha=0.75, color = color, linewidths=0)
+        ax.plot_surface(0 + obsels[i]["m:x"],X + obsels[i]["m:z"],Y + obsels[i]["m:y"], alpha=0.75, color = color, linewidths=0)
 
 
 # r = [0,1]
