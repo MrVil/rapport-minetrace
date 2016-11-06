@@ -19,7 +19,22 @@ Nous traitons ensuite les données avec le script NodeJs **transform.js** dispon
 Notre base se situe à l'adresse suivante : [liris-ktbs01.insa-lyon.fr:8000/public/master-ia-2016/zguyl/](https://liris-ktbs01.insa-lyon.fr:8000/public/master-ia-2016/zguyl/)
 
 ### Mise en place de la structure dans kTBS <a name="markdown-header-mise-en-place-de-la-structure-dans-ktbs"></a>
+Les données mises à notre disposition sont propice à être hierarchisées. Cependant, étant donné leur faible diversité, cela nous a conduit à établir une structure plate, plus facile et rapide à utiliser.
+Cependant, un exemple de structure hierarchisée est disponible [ici](https://github.com/MrVil/OWL-Minetrace)
+Etant donné qu'on ne souhaite pas s'intéresser aux craft, on ne récupère que les informations de base de cette action.
+
+Voici le schéma de la structure produite :
 ![structure](structure.png)
+
+Et les requêtes envoyées au serveur kTBS :
+##### Création de la base
+```json
+{
+    "@id": "base1/",
+    "@type": "Base",
+    "label": "My new base"
+}
+```
 
 ### Transformation des données <a name="markdown-header-transformation-des-données"></a>
 Pour la transformation des données, deux versions du script
