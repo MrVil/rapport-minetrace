@@ -227,6 +227,19 @@ Et voici sa description en JSON pour l'utilisation de FSA4stream :
 }
 ```
 
+**Filtrer par le pseudo du joueur**
+```json
+{
+    "@id": "filteredDatcu/",
+    "@type": "ComputedTrace",
+    "hasMethod": "filter",
+    "hasSource": [ "t02/" ],
+    "parameter": [ 
+        "bgp=?obs m:playerName \"Datcu\""
+    ]
+}
+```
+
 ### Visualisation des données <a name="markdown-header-visualisation-des-données"></a>
 Pour visualiser les données, des scripts python sont disponibles dans le répertoire [output_script](https://github.com/MrVil/rapport-minetrace/tree/master/output_script/).
 
