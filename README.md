@@ -36,13 +36,167 @@ Et les requêtes envoyées au serveur kTBS :
 }
 ```
 
+##### Création du model
+`POST:https://liris-ktbs01.insa-lyon.fr:8000/public/master-ia-2016/zguyl/`
+```json
+{
+    "@id": "model1",
+    "@type": "TraceModel"
+}
+```
+`PUT:https://liris-ktbs01.insa-lyon.fr:8000/public/master-ia-2016/zguyl/model1`
+```json
+`{
+            "@id": "#PlayerKick" ,
+            "@type": "ObselType" 
+        },
+        {
+            "@id": "#PlayerDamage" ,
+            "@type": "ObselType" 
+        },
+        {
+            "@id": "#PickupItem" ,
+            "@type": "ObselType" 
+        },
+        {
+            "@id": "#DropItem" ,
+            "@type": "ObselType" 
+        },
+        {
+            "@id": "#PlayerDeath" ,
+            "@type": "ObselType" 
+        },
+        {
+            "@id": "#BlockBreak" ,
+            "@type": "ObselType" 
+        },
+        {
+            "@id": "#PlayerQuit" ,
+            "@type": "ObselType" 
+        },
+        {
+            "@id": "#Craft" ,
+            "@type": "ObselType" 
+        },
+        {
+            "@id": "#BlockPlace" ,
+            "@type": "ObselType" 
+        },
+        {
+            "@id": "#PlayerJoin" ,
+            "@type": "ObselType" 
+        },
+        {
+            "@id": "#Mining" ,
+            "@type": "ObselType" 
+        },
+        {
+            "@id": "#x" ,
+            "@type": "AttributeType" ,
+            "hasAttributeObselType": ["#PlayerKick", "#PlayerDamage", "#PickupItem", "#DropItem", "#PlayerDeath", "#BlockBreak", "#PlayerQuit", "#Craft", "#BlockPlace", "#PlayerJoin", "#Mining"] ,
+            "hasAttributeDatatype": ["xsd:integer"] ,
+            "label": "x"
+        },
+        {
+            "@id": "#z" ,
+            "@type": "AttributeType" ,
+            "hasAttributeObselType": ["#PlayerKick", "#PlayerDamage", "#PickupItem", "#DropItem", "#PlayerDeath", "#BlockBreak", "#PlayerQuit", "#Craft", "#BlockPlace", "#PlayerJoin", "#Mining"] ,
+            "hasAttributeDatatype": ["xsd:integer"] ,
+            "label": "z"
+        },
+        {
+            "@id": "#y" ,
+            "@type": "AttributeType" ,
+            "hasAttributeObselType": ["#PlayerKick", "#PlayerDamage", "#PickupItem", "#DropItem", "#PlayerDeath", "#BlockBreak", "#PlayerQuit", "#Craft", "#BlockPlace", "#PlayerJoin", "#Mining"] ,
+            "hasAttributeDatatype": ["xsd:integer"] ,
+            "label": "y"
+        },
+        {
+            "@id": "#playerName" ,
+            "@type": "AttributeType" ,
+            "hasAttributeObselType": ["#PlayerKick", "#PlayerDamage", "#PickupItem", "#DropItem", "#PlayerDeath", "#BlockBreak", "#PlayerQuit", "#Craft", "#BlockPlace", "#PlayerJoin", "#Mining"] ,
+            "hasAttributeDatatype": ["xsd:string"] ,
+            "label": "Player name"
+        },
+        {
+            "@id": "#data" ,
+            "@type": "AttributeType" ,
+            "hasAttributeObselType": ["#PickupItem", "#DropItem", "#BlockBreak", "#BlockPlace"] ,
+            "hasAttributeDatatype": ["xsd:integer"] ,
+            "label": "data"
+        },
+        {
+            "@id": "#blockName" ,
+            "@type": "AttributeType" ,
+            "hasAttributeObselType": ["#BlockBreak", "#BlockPlace"] ,
+            "hasAttributeDatatype": ["xsd:string"] ,
+            "label": "Block name"
+        },
+        {
+            "@id": "#itemName" ,
+            "@type": "AttributeType" ,
+            "hasAttributeObselType": ["#PickupItem", "#DropItem", "#Mining"] ,
+            "hasAttributeDatatype": ["xsd:string"] ,
+            "label": "Item name"
+        },
+        {
+            "@id": "#amount" ,
+            "@type": "AttributeType" ,
+            "hasAttributeObselType": ["#PickupItem", "#DropItem"] ,
+            "hasAttributeDatatype": ["xsd:integer"] ,
+            "label": "Amount"
+        },
+        {
+            "@id": "#damage" ,
+            "@type": "AttributeType" ,
+            "hasAttributeObselType": ["#PlayerDamage"] ,
+            "hasAttributeDatatype": ["xsd:integer"] ,
+            "label": "damage"
+        },
+        {
+            "@id": "#cause" ,
+            "@type": "AttributeType" ,
+            "hasAttributeObselType": ["#PlayerDamage"] ,
+            "hasAttributeDatatype": ["xsd:string"] ,
+            "label": "cause"
+        },
+        {
+            "@id": "#resultBCraft" ,
+            "@type": "AttributeType" ,
+            "hasAttributeObselType": ["#Craft"] ,
+            "hasAttributeDatatype": ["xsd:integer"] ,
+            "label": "Result B Craft"
+        },
+        {
+            "@id": "#numberOfCrafts" ,
+            "@type": "AttributeType" ,
+            "hasAttributeObselType": ["#Craft"] ,
+            "hasAttributeDatatype": ["xsd:integer"] ,
+            "label": "Number of craft"
+        },
+        {
+            "@id": "#resultData" ,
+            "@type": "AttributeType" ,
+            "hasAttributeObselType": ["#Craft"] ,
+            "hasAttributeDatatype": ["xsd:integer"] ,
+            "label": "Result data"
+        },
+        {
+            "@id": "#resultType" ,
+            "@type": "AttributeType" ,
+            "hasAttributeObselType": ["#Craft"] ,
+            "hasAttributeDatatype": ["xsd:string"] ,
+            "label": "Result type"
+        } ]
+```
+
 ##### Création de la trace
+`POST:https://liris-ktbs01.insa-lyon.fr:8000/public/master-ia-2016/zguyl/`
 ```json
 {
     "@id": "t01/",
     "@type": "StoredTrace",
-    "hasModel": "http://liris.cnrs.fr/silex/2011/simple-trace-model",
-    "origin": "1970-01-01T00:00:00Z"
+    "hasModel": "model1/"
 }
 ```
 
