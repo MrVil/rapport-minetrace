@@ -1,4 +1,4 @@
-﻿# Rapport Minetrace
+# Rapport Minetrace
 Par [Bastien Guyl](http://bastien.guyl.me) et [Marc Zominy](https://github.com/zominym)
 
 ### Sommaire
@@ -190,10 +190,6 @@ Voici comment utiliser le script
 ### Mise en place des transformations <a name="markdown-header-mise-en-place-des-transformations"></a>
 Nous avons choisi d'analyser le minage des ressources précieuses du jeu.
 
-Voici l'automate utilisé pour créer une couche d'abstraction supplémentaire concernant le minagedes ressources :
-![fsa](FSA.png)
-
-Et voici sa description en JSON pour l'utilisation de FSA4stream :
 ```json
 {
     "allow_overlap": true,
@@ -258,7 +254,21 @@ Et voici sa description en JSON pour l'utilisation de FSA4stream :
 ```
 
 ### Visualisation des données <a name="markdown-header-visualisation-des-données"></a>
-TODO
+Pour visualiser les données, des scripts python sont disponibles dans le répertoire [output_scripts](output_scripts/).
+
+Pour le lancer, il est nécessaire d'installer [Python3.5.X](https://www.python.org/) et [Numpy](http://www.numpy.org/)
+
+`python script.py`
+
+![Résultat du script 2D]()
+
+Nous avons en axis, la position en X et en ordonné la position en Y (profondeur) du bloc miné. 
+La couleur correspond au type du bloc.
+
+`python script3d.py`
+
+![Résultat du script 3D]()
+
 
 ### Analyse des données <a name="markdown-header-analyse-des-données"></a>
 TODO
