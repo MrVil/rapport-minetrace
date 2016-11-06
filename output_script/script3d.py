@@ -10,7 +10,7 @@ ax = fig.gca(projection='3d')
 
 
 # OPEN THE JSON FILE CONTAINING THE OBSELS
-with open('obselsTardi2.json') as obsels_file:
+with open('obselsFusion.json') as obsels_file:
     obsels = json.load(obsels_file)
 
 color = "black"

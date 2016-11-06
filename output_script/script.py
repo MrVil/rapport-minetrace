@@ -7,7 +7,7 @@ import json
 
 
 # OPEN THE JSON FILE CONTAINING THE OBSELS
-with open('obselsDatcu.json') as obsels_file:
+with open('obselsFusion.json') as obsels_file:
     obsels = json.load(obsels_file)
 
 # print(obsels)

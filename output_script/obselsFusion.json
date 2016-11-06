@@ -1,0 +1,926 @@
+[
+        {
+            "@id": "fsaDatcu4_518",
+            "@type": "m:Mining",
+            "begin": 1477059889666,
+            "end": 1477059889818,
+            "hasSourceObsel": [
+                "../fsaDatcu4/518"
+            ],
+            "m:itemName": "STONE",
+            "m:playerName": "Datcu",
+            "m:x": 484,
+            "m:y": 8,
+            "m:z": 28
+        },
+        {
+            "@id": "fsaDatcu4_530",
+            "@type": "m:Mining",
+            "begin": 1477059902642,
+            "end": 1477059904396,
+            "hasSourceObsel": [
+                "../fsaDatcu4/530"
+            ],
+            "m:itemName": "STONE",
+            "m:playerName": "Datcu",
+            "m:x": 484,
+            "m:y": 8,
+            "m:z": 31
+        },
+        {
+            "@id": "fsaDatcu4_541",
+            "@type": "m:Mining",
+            "begin": 1477059916776,
+            "end": 1477059917478,
+            "hasSourceObsel": [
+                "../fsaDatcu4/541"
+            ],
+            "m:itemName": "STONE",
+            "m:playerName": "Datcu",
+            "m:x": 484,
+            "m:y": 9,
+            "m:z": 33
+        },
+        {
+            "@id": "fsaDatcu4_547",
+            "@type": "m:Mining",
+            "begin": 1477059931891,
+            "end": 1477059932394,
+            "hasSourceObsel": [
+                "../fsaDatcu4/547"
+            ],
+            "m:itemName": "REDSTONE",
+            "m:playerName": "Datcu",
+            "m:x": 484,
+            "m:y": 7,
+            "m:z": 32
+        },
+        {
+            "@id": "fsaDatcu4_551",
+            "@type": "m:Mining",
+            "begin": 1477059935651,
+            "end": 1477059936555,
+            "hasSourceObsel": [
+                "../fsaDatcu4/551"
+            ],
+            "m:itemName": "REDSTONE",
+            "m:playerName": "Datcu",
+            "m:x": 483,
+            "m:y": 6,
+            "m:z": 32
+        },
+        {
+            "@id": "fsaDatcu4_553",
+            "@type": "m:Mining",
+            "begin": 1477059937753,
+            "end": 1477059938255,
+            "hasSourceObsel": [
+                "../fsaDatcu4/553"
+            ],
+            "m:itemName": "REDSTONE",
+            "m:playerName": "Datcu",
+            "m:x": 483,
+            "m:y": 7,
+            "m:z": 31
+        },
+        {
+            "@id": "fsaDatcu4_556",
+            "@type": "m:Mining",
+            "begin": 1477059939958,
+            "end": 1477059940012,
+            "hasSourceObsel": [
+                "../fsaDatcu4/556"
+            ],
+            "m:itemName": "REDSTONE",
+            "m:playerName": "Datcu",
+            "m:x": 484,
+            "m:y": 6,
+            "m:z": 31
+        },
+        {
+            "@id": "fsaDatcu4_559",
+            "@type": "m:Mining",
+            "begin": 1477059941460,
+            "end": 1477059942463,
+            "hasSourceObsel": [
+                "../fsaDatcu4/559"
+            ],
+            "m:itemName": "REDSTONE",
+            "m:playerName": "Datcu",
+            "m:x": 484,
+            "m:y": 5,
+            "m:z": 32
+        },
+        {
+            "@id": "fsaDatcu4_580",
+            "@type": "m:Mining",
+            "begin": 1477059974108,
+            "end": 1477059974611,
+            "hasSourceObsel": [
+                "../fsaDatcu4/580"
+            ],
+            "m:itemName": "DIAMOND",
+            "m:playerName": "Datcu",
+            "m:x": 487,
+            "m:y": 8,
+            "m:z": 26
+        },
+        {
+            "@id": "fsaDatcu4_582",
+            "@type": "m:Mining",
+            "begin": 1477059977063,
+            "end": 1477059977565,
+            "hasSourceObsel": [
+                "../fsaDatcu4/582"
+            ],
+            "m:itemName": "DIAMOND",
+            "m:playerName": "Datcu",
+            "m:x": 488,
+            "m:y": 8,
+            "m:z": 26
+        },
+        {
+            "@id": "fsaDatcu4_589",
+            "@type": "m:Mining",
+            "begin": 1477059993156,
+            "end": 1477059993358,
+            "hasSourceObsel": [
+                "../fsaDatcu4/589"
+            ],
+            "m:itemName": "STONE",
+            "m:playerName": "Datcu",
+            "m:x": 485,
+            "m:y": 12,
+            "m:z": 26
+        },
+        {
+            "@id": "fsaDatcu4_2003",
+            "@type": "m:Mining",
+            "begin": 1477066927809,
+            "end": 1477066928311,
+            "hasSourceObsel": [
+                "../fsaDatcu4/2003"
+            ],
+            "m:itemName": "STONE",
+            "m:playerName": "Datcu",
+            "m:x": 486,
+            "m:y": 8,
+            "m:z": 20
+        },
+        {
+            "@id": "fsaDatcu4_2010",
+            "@type": "m:Mining",
+            "begin": 1477066931414,
+            "end": 1477066931467,
+            "hasSourceObsel": [
+                "../fsaDatcu4/2010"
+            ],
+            "m:itemName": "STONE",
+            "m:playerName": "Datcu",
+            "m:x": 485,
+            "m:y": 8,
+            "m:z": 23
+        },
+        {
+            "@id": "fsaDatcu4_2018",
+            "@type": "m:Mining",
+            "begin": 1477066936822,
+            "end": 1477066937025,
+            "hasSourceObsel": [
+                "../fsaDatcu4/2018"
+            ],
+            "m:itemName": "STONE",
+            "m:playerName": "Datcu",
+            "m:x": 487,
+            "m:y": 8,
+            "m:z": 21
+        },
+        {
+            "@id": "fsaDatcu4_2021",
+            "@type": "m:Mining",
+            "begin": 1477066937723,
+            "end": 1477066938227,
+            "hasSourceObsel": [
+                "../fsaDatcu4/2021"
+            ],
+            "m:itemName": "STONE",
+            "m:playerName": "Datcu",
+            "m:x": 488,
+            "m:y": 8,
+            "m:z": 21
+        },
+        {
+            "@id": "fsaDatcu4_2023",
+            "@type": "m:Mining",
+            "begin": 1477066938624,
+            "end": 1477066939127,
+            "hasSourceObsel": [
+                "../fsaDatcu4/2023"
+            ],
+            "m:itemName": "STONE",
+            "m:playerName": "Datcu",
+            "m:x": 489,
+            "m:y": 8,
+            "m:z": 21
+        },
+        {
+            "@id": "fsaDatcu4_2027",
+            "@type": "m:Mining",
+            "begin": 1477066943980,
+            "end": 1477066944884,
+            "hasSourceObsel": [
+                "../fsaDatcu4/2027"
+            ],
+            "m:itemName": "DIAMOND",
+            "m:playerName": "Datcu",
+            "m:x": 488,
+            "m:y": 7,
+            "m:z": 25
+        },
+        {
+            "@id": "fsaDatcu4_2030",
+            "@type": "m:Mining",
+            "begin": 1477066946884,
+            "end": 1477066947803,
+            "hasSourceObsel": [
+                "../fsaDatcu4/2030"
+            ],
+            "m:itemName": "DIAMOND",
+            "m:playerName": "Datcu",
+            "m:x": 488,
+            "m:y": 6,
+            "m:z": 25
+        },
+        {
+            "@id": "fsaTardi_2045",
+            "@type": "m:Mining",
+            "begin": 1477066957355,
+            "end": 1477066957858,
+            "hasSourceObsel": [
+                "../fsaTardi/2045"
+            ],
+            "m:itemName": "IRON_ORE",
+            "m:playerName": "Tardi",
+            "m:x": 103,
+            "m:y": 33,
+            "m:z": 126
+        },
+        {
+            "@id": "fsaDatcu4_2069",
+            "@type": "m:Mining",
+            "begin": 1477066967520,
+            "end": 1477066968023,
+            "hasSourceObsel": [
+                "../fsaDatcu4/2069"
+            ],
+            "m:itemName": "STONE",
+            "m:playerName": "Datcu",
+            "m:x": 490,
+            "m:y": 8,
+            "m:z": 22
+        },
+        {
+            "@id": "fsaDatcu4_2071",
+            "@type": "m:Mining",
+            "begin": 1477066968422,
+            "end": 1477066968924,
+            "hasSourceObsel": [
+                "../fsaDatcu4/2071"
+            ],
+            "m:itemName": "STONE",
+            "m:playerName": "Datcu",
+            "m:x": 490,
+            "m:y": 8,
+            "m:z": 21
+        },
+        {
+            "@id": "fsaDatcu4_2073",
+            "@type": "m:Mining",
+            "begin": 1477066969323,
+            "end": 1477066969825,
+            "hasSourceObsel": [
+                "../fsaDatcu4/2073"
+            ],
+            "m:itemName": "STONE",
+            "m:playerName": "Datcu",
+            "m:x": 491,
+            "m:y": 8,
+            "m:z": 21
+        },
+        {
+            "@id": "fsaTardi_2092",
+            "@type": "m:Mining",
+            "begin": 1477066976133,
+            "end": 1477066976637,
+            "hasSourceObsel": [
+                "../fsaTardi/2092"
+            ],
+            "m:itemName": "STONE",
+            "m:playerName": "Tardi",
+            "m:x": 106,
+            "m:y": 32,
+            "m:z": 126
+        },
+        {
+            "@id": "fsaTardi_4408",
+            "@type": "m:Mining",
+            "begin": 1477167329318,
+            "end": 1477167330421,
+            "hasSourceObsel": [
+                "../fsaTardi/4408"
+            ],
+            "m:itemName": "STONE",
+            "m:playerName": "Tardi",
+            "m:x": 89,
+            "m:y": 15,
+            "m:z": 145
+        },
+        {
+            "@id": "fsaTardi_4419",
+            "@type": "m:Mining",
+            "begin": 1477167339829,
+            "end": 1477167340331,
+            "hasSourceObsel": [
+                "../fsaTardi/4419"
+            ],
+            "m:itemName": "STONE",
+            "m:playerName": "Tardi",
+            "m:x": 88,
+            "m:y": 13,
+            "m:z": 143
+        },
+        {
+            "@id": "fsaTardi_4421",
+            "@type": "m:Mining",
+            "begin": 1477167343482,
+            "end": 1477167343987,
+            "hasSourceObsel": [
+                "../fsaTardi/4421"
+            ],
+            "m:itemName": "DIAMOND",
+            "m:playerName": "Tardi",
+            "m:x": 87,
+            "m:y": 14,
+            "m:z": 144
+        },
+        {
+            "@id": "fsaTardi_4423",
+            "@type": "m:Mining",
+            "begin": 1477167344535,
+            "end": 1477167345038,
+            "hasSourceObsel": [
+                "../fsaTardi/4423"
+            ],
+            "m:itemName": "DIAMOND",
+            "m:playerName": "Tardi",
+            "m:x": 87,
+            "m:y": 14,
+            "m:z": 143
+        },
+        {
+            "@id": "fsaTardi_4425",
+            "@type": "m:Mining",
+            "begin": 1477167345585,
+            "end": 1477167346239,
+            "hasSourceObsel": [
+                "../fsaTardi/4425"
+            ],
+            "m:itemName": "DIAMOND",
+            "m:playerName": "Tardi",
+            "m:x": 87,
+            "m:y": 15,
+            "m:z": 143
+        },
+        {
+            "@id": "fsaTardi_4428",
+            "@type": "m:Mining",
+            "begin": 1477167347887,
+            "end": 1477167348389,
+            "hasSourceObsel": [
+                "../fsaTardi/4428"
+            ],
+            "m:itemName": "DIAMOND",
+            "m:playerName": "Tardi",
+            "m:x": 88,
+            "m:y": 14,
+            "m:z": 144
+        },
+        {
+            "@id": "fsaTardi_4430",
+            "@type": "m:Mining",
+            "begin": 1477167349088,
+            "end": 1477167349590,
+            "hasSourceObsel": [
+                "../fsaTardi/4430"
+            ],
+            "m:itemName": "DIAMOND",
+            "m:playerName": "Tardi",
+            "m:x": 88,
+            "m:y": 14,
+            "m:z": 143
+        },
+        {
+            "@id": "fsaTardi_4433",
+            "@type": "m:Mining",
+            "begin": 1477167351191,
+            "end": 1477167352143,
+            "hasSourceObsel": [
+                "../fsaTardi/4433"
+            ],
+            "m:itemName": "DIAMOND",
+            "m:playerName": "Tardi",
+            "m:x": 88,
+            "m:y": 15,
+            "m:z": 144
+        },
+        {
+            "@id": "fsaTardi_4445",
+            "@type": "m:Mining",
+            "begin": 1477169982366,
+            "end": 1477169982374,
+            "hasSourceObsel": [
+                "../fsaTardi/4445"
+            ],
+            "m:itemName": "STONE",
+            "m:playerName": "Tardi",
+            "m:x": 82,
+            "m:y": 12,
+            "m:z": 144
+        },
+        {
+            "@id": "fsaTardi_4455",
+            "@type": "m:Mining",
+            "begin": 1477169987374,
+            "end": 1477169987382,
+            "hasSourceObsel": [
+                "../fsaTardi/4455"
+            ],
+            "m:itemName": "STONE",
+            "m:playerName": "Tardi",
+            "m:x": 78,
+            "m:y": 13,
+            "m:z": 144
+        },
+        {
+            "@id": "fsaTardi_4474",
+            "@type": "m:Mining",
+            "begin": 1477170004501,
+            "end": 1477170004704,
+            "hasSourceObsel": [
+                "../fsaTardi/4474"
+            ],
+            "m:itemName": "STONE",
+            "m:playerName": "Tardi",
+            "m:x": 79,
+            "m:y": 14,
+            "m:z": 145
+        },
+        {
+            "@id": "fsaTardi_4498",
+            "@type": "m:Mining",
+            "begin": 1477170029383,
+            "end": 1477170029889,
+            "hasSourceObsel": [
+                "../fsaTardi/4498"
+            ],
+            "m:itemName": "STONE",
+            "m:playerName": "Tardi",
+            "m:x": 78,
+            "m:y": 11,
+            "m:z": 144
+        },
+        {
+            "@id": "fsaTardi_4502",
+            "@type": "m:Mining",
+            "begin": 1477170031790,
+            "end": 1477170032092,
+            "hasSourceObsel": [
+                "../fsaTardi/4502"
+            ],
+            "m:itemName": "STONE",
+            "m:playerName": "Tardi",
+            "m:x": 78,
+            "m:y": 13,
+            "m:z": 145
+        },
+        {
+            "@id": "fsaTardi_4518",
+            "@type": "m:Mining",
+            "begin": 1477170044862,
+            "end": 1477170045365,
+            "hasSourceObsel": [
+                "../fsaTardi/4518"
+            ],
+            "m:itemName": "DIAMOND",
+            "m:playerName": "Tardi",
+            "m:x": 79,
+            "m:y": 12,
+            "m:z": 145
+        },
+        {
+            "@id": "fsaTardi_4520",
+            "@type": "m:Mining",
+            "begin": 1477170045964,
+            "end": 1477170046471,
+            "hasSourceObsel": [
+                "../fsaTardi/4520"
+            ],
+            "m:itemName": "DIAMOND",
+            "m:playerName": "Tardi",
+            "m:x": 79,
+            "m:y": 12,
+            "m:z": 146
+        },
+        {
+            "@id": "fsaTardi_4524",
+            "@type": "m:Mining",
+            "begin": 1477170048867,
+            "end": 1477170048969,
+            "hasSourceObsel": [
+                "../fsaTardi/4524"
+            ],
+            "m:itemName": "DIAMOND",
+            "m:playerName": "Tardi",
+            "m:x": 80,
+            "m:y": 12,
+            "m:z": 145
+        },
+        {
+            "@id": "fsaTardi_4527",
+            "@type": "m:Mining",
+            "begin": 1477170050269,
+            "end": 1477170050772,
+            "hasSourceObsel": [
+                "../fsaTardi/4527"
+            ],
+            "m:itemName": "DIAMOND",
+            "m:playerName": "Tardi",
+            "m:x": 80,
+            "m:y": 11,
+            "m:z": 145
+        },
+        {
+            "@id": "fsaTardi_4529",
+            "@type": "m:Mining",
+            "begin": 1477170052326,
+            "end": 1477170052830,
+            "hasSourceObsel": [
+                "../fsaTardi/4529"
+            ],
+            "m:itemName": "IRON_ORE",
+            "m:playerName": "Tardi",
+            "m:x": 82,
+            "m:y": 11,
+            "m:z": 145
+        },
+        {
+            "@id": "fsaTardi_4534",
+            "@type": "m:Mining",
+            "begin": 1477170056337,
+            "end": 1477170056840,
+            "hasSourceObsel": [
+                "../fsaTardi/4534"
+            ],
+            "m:itemName": "IRON_ORE",
+            "m:playerName": "Tardi",
+            "m:x": 82,
+            "m:y": 11,
+            "m:z": 146
+        },
+        {
+            "@id": "fsaTardi_4542",
+            "@type": "m:Mining",
+            "begin": 1477170070164,
+            "end": 1477170070767,
+            "hasSourceObsel": [
+                "../fsaTardi/4542"
+            ],
+            "m:itemName": "IRON_ORE",
+            "m:playerName": "Tardi",
+            "m:x": 82,
+            "m:y": 10,
+            "m:z": 146
+        },
+        {
+            "@id": "fsaTardi_4544",
+            "@type": "m:Mining",
+            "begin": 1477170071816,
+            "end": 1477170072319,
+            "hasSourceObsel": [
+                "../fsaTardi/4544"
+            ],
+            "m:itemName": "IRON_ORE",
+            "m:playerName": "Tardi",
+            "m:x": 83,
+            "m:y": 11,
+            "m:z": 146
+        },
+        {
+            "@id": "fsaTardi_4546",
+            "@type": "m:Mining",
+            "begin": 1477170072868,
+            "end": 1477170073371,
+            "hasSourceObsel": [
+                "../fsaTardi/4546"
+            ],
+            "m:itemName": "IRON_ORE",
+            "m:playerName": "Tardi",
+            "m:x": 83,
+            "m:y": 10,
+            "m:z": 146
+        },
+        {
+            "@id": "fsaTardi_4550",
+            "@type": "m:Mining",
+            "begin": 1477172790878,
+            "end": 1477172791381,
+            "hasSourceObsel": [
+                "../fsaTardi/4550"
+            ],
+            "m:itemName": "DIAMOND",
+            "m:playerName": "Tardi",
+            "m:x": 79,
+            "m:y": 13,
+            "m:z": 146
+        },
+        {
+            "@id": "fsaTardi_4902",
+            "@type": "m:Mining",
+            "begin": 1477219553488,
+            "end": 1477219553942,
+            "hasSourceObsel": [
+                "../fsaTardi/4902"
+            ],
+            "m:itemName": "COAL",
+            "m:playerName": "Tardi",
+            "m:x": 75,
+            "m:y": 12,
+            "m:z": 142
+        },
+        {
+            "@id": "fsaTardi_4914",
+            "@type": "m:Mining",
+            "begin": 1477219608042,
+            "end": 1477219613002,
+            "hasSourceObsel": [
+                "../fsaTardi/4914"
+            ],
+            "m:itemName": "IRON_ORE",
+            "m:playerName": "Tardi",
+            "m:x": 79,
+            "m:y": 16,
+            "m:z": 150
+        },
+        {
+            "@id": "fsaTardi_4917",
+            "@type": "m:Mining",
+            "begin": 1477219629636,
+            "end": 1477219630243,
+            "hasSourceObsel": [
+                "../fsaTardi/4917"
+            ],
+            "m:itemName": "STONE",
+            "m:playerName": "Tardi",
+            "m:x": 92,
+            "m:y": 12,
+            "m:z": 144
+        },
+        {
+            "@id": "fsaTardi_4919",
+            "@type": "m:Mining",
+            "begin": 1477219672859,
+            "end": 1477219673463,
+            "hasSourceObsel": [
+                "../fsaTardi/4919"
+            ],
+            "m:itemName": "STONE",
+            "m:playerName": "Tardi",
+            "m:x": 102,
+            "m:y": 68,
+            "m:z": 90
+        },
+        {
+            "@id": "fsaTardi_4921",
+            "@type": "m:Mining",
+            "begin": 1477219674011,
+            "end": 1477219674765,
+            "hasSourceObsel": [
+                "../fsaTardi/4921"
+            ],
+            "m:itemName": "STONE",
+            "m:playerName": "Tardi",
+            "m:x": 102,
+            "m:y": 68,
+            "m:z": 89
+        },
+        {
+            "@id": "fsaTardi_4931",
+            "@type": "m:Mining",
+            "begin": 1477219770128,
+            "end": 1477219770332,
+            "hasSourceObsel": [
+                "../fsaTardi/4931"
+            ],
+            "m:itemName": "COBBLESTONE",
+            "m:playerName": "Tardi",
+            "m:x": 102,
+            "m:y": 68,
+            "m:z": 89
+        },
+        {
+            "@id": "fsaTardi_4940",
+            "@type": "m:Mining",
+            "begin": 1477219793497,
+            "end": 1477219794002,
+            "hasSourceObsel": [
+                "../fsaTardi/4940"
+            ],
+            "m:itemName": "TORCH",
+            "m:playerName": "Tardi",
+            "m:x": 102,
+            "m:y": 66,
+            "m:z": 92
+        },
+        {
+            "@id": "fsaTardi_4942",
+            "@type": "m:Mining",
+            "begin": 1477219798305,
+            "end": 1477219798809,
+            "hasSourceObsel": [
+                "../fsaTardi/4942"
+            ],
+            "m:itemName": "DIRT",
+            "m:playerName": "Tardi",
+            "m:x": 102,
+            "m:y": 65,
+            "m:z": 92
+        },
+        {
+            "@id": "fsaTardi_4948",
+            "@type": "m:Mining",
+            "begin": 1477219813884,
+            "end": 1477219814387,
+            "hasSourceObsel": [
+                "../fsaTardi/4948"
+            ],
+            "m:itemName": "STONE",
+            "m:playerName": "Tardi",
+            "m:x": 117,
+            "m:y": 63,
+            "m:z": 95
+        },
+        {
+            "@id": "fsaTardi_4950",
+            "@type": "m:Mining",
+            "begin": 1477219814835,
+            "end": 1477219815338,
+            "hasSourceObsel": [
+                "../fsaTardi/4950"
+            ],
+            "m:itemName": "STONE",
+            "m:playerName": "Tardi",
+            "m:x": 117,
+            "m:y": 64,
+            "m:z": 95
+        },
+        {
+            "@id": "fsaTardi_4956",
+            "@type": "m:Mining",
+            "begin": 1477219819841,
+            "end": 1477219820595,
+            "hasSourceObsel": [
+                "../fsaTardi/4956"
+            ],
+            "m:itemName": "STONE",
+            "m:playerName": "Tardi",
+            "m:x": 119,
+            "m:y": 65,
+            "m:z": 95
+        },
+        {
+            "@id": "fsaTardi_4964",
+            "@type": "m:Mining",
+            "begin": 1477219829206,
+            "end": 1477219829709,
+            "hasSourceObsel": [
+                "../fsaTardi/4964"
+            ],
+            "m:itemName": "COAL",
+            "m:playerName": "Tardi",
+            "m:x": 119,
+            "m:y": 63,
+            "m:z": 96
+        },
+        {
+            "@id": "fsaTardi_4971",
+            "@type": "m:Mining",
+            "begin": 1477219835516,
+            "end": 1477219835769,
+            "hasSourceObsel": [
+                "../fsaTardi/4971"
+            ],
+            "m:itemName": "COAL",
+            "m:playerName": "Tardi",
+            "m:x": 121,
+            "m:y": 63,
+            "m:z": 95
+        },
+        {
+            "@id": "fsaTardi_4976",
+            "@type": "m:Mining",
+            "begin": 1477219840070,
+            "end": 1477219840122,
+            "hasSourceObsel": [
+                "../fsaTardi/4976"
+            ],
+            "m:itemName": "COAL",
+            "m:playerName": "Tardi",
+            "m:x": 121,
+            "m:y": 63,
+            "m:z": 94
+        },
+        {
+            "@id": "fsaTardi_4982",
+            "@type": "m:Mining",
+            "begin": 1477219844274,
+            "end": 1477219844779,
+            "hasSourceObsel": [
+                "../fsaTardi/4982"
+            ],
+            "m:itemName": "COAL",
+            "m:playerName": "Tardi",
+            "m:x": 122,
+            "m:y": 62,
+            "m:z": 94
+        },
+        {
+            "@id": "fsaTardi_4984",
+            "@type": "m:Mining",
+            "begin": 1477219845276,
+            "end": 1477219845781,
+            "hasSourceObsel": [
+                "../fsaTardi/4984"
+            ],
+            "m:itemName": "COAL",
+            "m:playerName": "Tardi",
+            "m:x": 122,
+            "m:y": 62,
+            "m:z": 93
+        },
+        {
+            "@id": "fsaTardi_4986",
+            "@type": "m:Mining",
+            "begin": 1477219846431,
+            "end": 1477219846933,
+            "hasSourceObsel": [
+                "../fsaTardi/4986"
+            ],
+            "m:itemName": "COAL",
+            "m:playerName": "Tardi",
+            "m:x": 121,
+            "m:y": 62,
+            "m:z": 93
+        },
+        {
+            "@id": "fsaTardi_4990",
+            "@type": "m:Mining",
+            "begin": 1477219871424,
+            "end": 1477219871927,
+            "hasSourceObsel": [
+                "../fsaTardi/4990"
+            ],
+            "m:itemName": "DIRT",
+            "m:playerName": "Tardi",
+            "m:x": 119,
+            "m:y": 66,
+            "m:z": 95
+        },
+        {
+            "@id": "fsaTardi_4997",
+            "@type": "m:Mining",
+            "begin": 1477219877133,
+            "end": 1477219877641,
+            "hasSourceObsel": [
+                "../fsaTardi/4997"
+            ],
+            "m:itemName": "DIRT",
+            "m:playerName": "Tardi",
+            "m:x": 121,
+            "m:y": 67,
+            "m:z": 95
+        },
+        {
+            "@id": "fsaTardi_4999",
+            "@type": "m:Mining",
+            "begin": 1477219878136,
+            "end": 1477219878646,
+            "hasSourceObsel": [
+                "../fsaTardi/4999"
+            ],
+            "m:itemName": "DIRT",
+            "m:playerName": "Tardi",
+            "m:x": 120,
+            "m:y": 67,
+            "m:z": 95
+        }
+    ]
