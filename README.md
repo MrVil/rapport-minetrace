@@ -1,4 +1,4 @@
-# Rapport Minetrace
+﻿# Rapport Minetrace
 Par [Bastien Guyl](http://bastien.guyl.me) et [Marc Zominy](https://github.com/zominym)
 
 ### Sommaire
@@ -190,6 +190,10 @@ Voici comment utiliser le script
 ### Mise en place des transformations <a name="markdown-header-mise-en-place-des-transformations"></a>
 Nous avons choisi d'analyser le minage des ressources précieuses du jeu.
 
+Voici l'automate utilisé pour créer une couche d'abstraction supplémentaire concernant le minagedes ressources :
+![fsa](FSA.png)
+
+Et voici sa description en JSON pour l'utilisation de FSA4stream :
 ```json
 {
     "allow_overlap": true,
