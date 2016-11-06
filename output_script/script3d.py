@@ -19,7 +19,7 @@ color = "black"
 for i in range(len(obsels) - 1, -1, -1):
     if obsels[i]["m:itemName"] != "STONE":
         if obsels[i]["m:itemName"] == "DIAMOND":
-            color = "lightblue"
+            color = "blue"
         if obsels[i]["m:itemName"] == "REDSTONE":
             color = "red"
         if obsels[i]["m:itemName"] == "GOLD":
