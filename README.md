@@ -28,11 +28,21 @@ Voici le schéma de la structure produite :
 
 Et les requêtes envoyées au serveur kTBS :
 ##### Création de la base
+`POST:https://liris-ktbs01.insa-lyon.fr:8000/public/master-ia-2016/`
 ```json
 {
-    "@id": "base1/",
-    "@type": "Base",
-    "label": "My new base"
+    "@id": "zguyl/",
+    "@type": "Base"
+}
+```
+
+##### Création de la trace
+```json
+{
+    "@id": "t01/",
+    "@type": "StoredTrace",
+    "hasModel": "http://liris.cnrs.fr/silex/2011/simple-trace-model",
+    "origin": "1970-01-01T00:00:00Z"
 }
 ```
 
