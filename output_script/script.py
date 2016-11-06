@@ -56,9 +56,9 @@ for i in range(len(obsels) - 1, -1, -1):
 
 # Generate data. In this case, we'll make a bunch of center-points and generate
 # verticies by subtracting random offsets from those center-points
-numpoly, numverts = 100, 4
+#numpoly, numverts = 100, 4
 #centers = [[[10, 20, 20, 10, 20, 30, 30, 20], [10, 10, 20, 20, 20, 20, 30, 30]]]
-centers = [[[min_x, min_y], [min_x + 1, min_y], [min_x + 1, min_y + 1]]]
+#centers = [[[min_x, min_y], [min_x + 1, min_y], [min_x + 1, min_y + 1]]]
 #centers = [[10, 10], [20, 10], [20, 20], [10, 20]], [[20, 20], [30, 20], [30, 30], [20, 30]]
 #centers = [[[10, 10], [20, 10], [20, 20], [10, 20]], [[20, 20], [30, 20], [30, 30], [20, 30]]]
 #centers = [[[10, 10, 10], [20, 10, 10], [20, 20, 10], [10, 20, 10]], [[20, 20, 10], [30, 20, 10], [30, 30, 10], [20, 30, 10]]]
