@@ -18,30 +18,29 @@ color = "black"
 # BROWSE THE OBSELS AND PLOT THE INTERESTING ONES (GOLD, DIAMOND AND REDSTONE)
 for i in range(len(obsels) - 1, -1, -1):
     if obsels[i]["m:itemName"] == "STONE":
-        obsels.pop(i)
-    else:
-        if obsels[i]["m:itemName"] == "DIAMOND":
-            color = "lightblue"
-        if obsels[i]["m:itemName"] == "REDSTONE":
-            color = "red"
-        if obsels[i]["m:itemName"] == "GOLD":
-            color = "yellow"
-        if obsels[i]["m:itemName"] == "IRON_ORE":
-            color = "grey"
-        if obsels[i]["m:itemName"] == "COAL":
-            color = "black"
-        # for s,e in combinations(np.array(list(product([obsels[i]['m:x'], obsels[i]['m:x']+1],[obsels[i]['m:y'], obsels[i]['m:y']+1],[obsels[i]['m:z'], obsels[i]['m:z']+1]))), 2):
-        #     if np.sum(np.abs(s-e)) == 1:
-        #         ax.plot_surface([10, 20, 20, 10], [10, 10, 20, 20], [0, 0, 0, 0], color=color, facecolors=color)
-        #         ax.plot_surface([10, 20, 20, 10], [10, 10, 20, 20], [10, 10, 10, 10], color=color, facecolors=color)
-        r = [0,1]
-        X, Y = np.meshgrid(r, r)
-        ax.plot_surface(X + obsels[i]["m:x"],Y + obsels[i]["m:z"],1 + obsels[i]["m:y"], alpha=0.75, color = color, linewidths=0)
-        ax.plot_surface(X + obsels[i]["m:x"],Y + obsels[i]["m:z"],0 + obsels[i]["m:y"], alpha=0.75, color = color, linewidths=0)
-        ax.plot_surface(X + obsels[i]["m:x"],0 + obsels[i]["m:z"],Y + obsels[i]["m:y"], alpha=0.75, color = color, linewidths=0)
-        ax.plot_surface(X + obsels[i]["m:x"],1 + obsels[i]["m:z"],Y + obsels[i]["m:y"], alpha=0.75, color = color, linewidths=0)
-        ax.plot_surface(1 + obsels[i]["m:x"],X + obsels[i]["m:z"],Y + obsels[i]["m:y"], alpha=0.75, color = color, linewidths=0)
-        ax.plot_surface(0 + obsels[i]["m:x"],X + obsels[i]["m:z"],Y + obsels[i]["m:y"], alpha=0.75, color = color, linewidths=0)
+        color = "lightgrey"
+    if obsels[i]["m:itemName"] == "DIAMOND":
+        color = "lightblue"
+    if obsels[i]["m:itemName"] == "REDSTONE":
+        color = "red"
+    if obsels[i]["m:itemName"] == "GOLD":
+        color = "yellow"
+    if obsels[i]["m:itemName"] == "IRON_ORE":
+        color = "grey"
+    if obsels[i]["m:itemName"] == "COAL":
+        color = "black"
+    # for s,e in combinations(np.array(list(product([obsels[i]['m:x'], obsels[i]['m:x']+1],[obsels[i]['m:y'], obsels[i]['m:y']+1],[obsels[i]['m:z'], obsels[i]['m:z']+1]))), 2):
+    #     if np.sum(np.abs(s-e)) == 1:
+    #         ax.plot_surface([10, 20, 20, 10], [10, 10, 20, 20], [0, 0, 0, 0], color=color, facecolors=color)
+    #         ax.plot_surface([10, 20, 20, 10], [10, 10, 20, 20], [10, 10, 10, 10], color=color, facecolors=color)
+    r = [0,1]
+    X, Y = np.meshgrid(r, r)
+    ax.plot_surface(X + obsels[i]["m:x"],Y + obsels[i]["m:z"],1 + obsels[i]["m:y"], alpha=0.75, color = color, linewidths=0)
+    ax.plot_surface(X + obsels[i]["m:x"],Y + obsels[i]["m:z"],0 + obsels[i]["m:y"], alpha=0.75, color = color, linewidths=0)
+    ax.plot_surface(X + obsels[i]["m:x"],0 + obsels[i]["m:z"],Y + obsels[i]["m:y"], alpha=0.75, color = color, linewidths=0)
+    ax.plot_surface(X + obsels[i]["m:x"],1 + obsels[i]["m:z"],Y + obsels[i]["m:y"], alpha=0.75, color = color, linewidths=0)
+    ax.plot_surface(1 + obsels[i]["m:x"],X + obsels[i]["m:z"],Y + obsels[i]["m:y"], alpha=0.75, color = color, linewidths=0)
+    ax.plot_surface(0 + obsels[i]["m:x"],X + obsels[i]["m:z"],Y + obsels[i]["m:y"], alpha=0.75, color = color, linewidths=0)
 
 
 # r = [0,1]
