@@ -19,7 +19,7 @@ Nous traitons ensuite les données avec le script NodeJs **transform.js** dispon
 Notre base se situe à l'adresse suivante : [liris-ktbs01.insa-lyon.fr:8000/public/master-ia-2016/zguyl/](https://liris-ktbs01.insa-lyon.fr:8000/public/master-ia-2016/zguyl/)
 
 ### Mise en place de la structure dans kTBS <a name="markdown-header-mise-en-place-de-la-structure-dans-ktbs"></a>
-[!structure](structure.png)
+![structure](structure.png)
 
 ### Transformation des données <a name="markdown-header-transformation-des-données"></a>
 Pour la transformation des données, deux versions du script
