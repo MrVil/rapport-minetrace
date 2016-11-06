@@ -190,6 +190,69 @@ Voici comment utiliser le script
 ### Mise en place des transformations <a name="markdown-header-mise-en-place-des-transformations"></a>
 Nous avons choisi d'analyser le minage des ressources précieuses du jeu.
 
+```json
+{
+    "allow_overlap": true,
+    "states": {
+        "start": {
+            "transitions": [{
+                "condition": "#BlockBreak",
+                "target": "check_pickup"
+            }]
+        },
+        "check_pickup": {
+            "transitions": [{
+                "condition": "?obs a m:PickupItem . ?obs m:itemName ?s1 . ?pred m:blockName ?s2 . ?s ?p ?o .FILTER regex(str(?s2), str(?s1)) .",
+                "matcher": "sparql-ask",
+                "target": "success"
+            }]
+        },
+        "success": {
+            "terminal": true,
+            "ktbs_obsel_type": "#Mining",
+            "ktbs_attributes": {
+                "#x": "first #x",
+                "#y": "first #y",
+                "#z": "first #z",
+                "#playerName": "first #playerName",
+                "#itemName": "last #itemName"
+            }
+        }
+    }
+}
+
+
+{
+    "allow_overlap": true,
+    "states": {
+        "start": {
+            "transitions": [{
+                "condition": "#BlockBreak",
+                "target": "check_pickup"
+            }]
+        },
+        "check_pickup": {
+            "transitions": [{
+                "condition": "?obs a m:PickupItem . ?obs m:itemName ?s1 . ?pred m:blockName ?s1 .",
+                "matcher": "sparql-ask",
+                "target": "success"
+            }]
+        },
+        "success": {
+            "terminal": true,
+            "ktbs_obsel_type": "#Mining",
+            "ktbs_attributes": {
+                "#x": "first #x",
+                "#y": "first #y",
+                "#z": "first #z",
+                "#playerName": "first #playerName",
+                "#itemName": "first #blockName"
+            }
+        }
+    }
+}
+```
+
 ### Visualisation des données <a name="markdown-header-visualisation-des-données"></a>
 TODO
 
