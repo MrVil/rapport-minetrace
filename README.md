@@ -20,7 +20,9 @@ Notre base se situe à l'adresse suivante : [liris-ktbs01.insa-lyon.fr:8000/publ
 
 ### Mise en place de la structure dans kTBS <a name="markdown-header-mise-en-place-de-la-structure-dans-ktbs"></a>
 Les données mises à notre disposition sont propice à être hierarchisées. Cependant, étant donné leur faible diversité, cela nous a conduit à établir une structure plate, plus facile et rapide à utiliser.
+
 Cependant, un exemple de structure hierarchisée est disponible [ici](https://github.com/MrVil/OWL-Minetrace)
+
 Etant donné qu'on ne souhaite pas s'intéresser aux craft, on ne récupère que les informations de base de cette action.
 
 Voici le schéma de la structure produite :
@@ -178,11 +180,12 @@ Et les requêtes envoyées au serveur kTBS :
 
 ### Transformation des données <a name="markdown-header-transformation-des-données"></a>
 Pour la transformation des données, deux versions du script sont disponible. `transformation.js` pour les données fournies dans l'énoncé du projet, et `transformation2.js` pour les données que nous avons crées par nous même.
+
 Voici comment utiliser le script
-`npm i` : installe les dépendances
-`node transform.js input.json` : transforme les données de *input.json* en obsels dans le fichier *output.json*
-`node transform.js input.json -o foo.json` : le paramètre *-o* permet de spécifier une sortie
- `node transform.js input.json -api http://example.com` : le paramètre *-api* permet de spécifier la destination du *json* en `HTTP:POST`
+* `npm i` : installe les dépendances
+* `node transform.js input.json` : transforme les données de *input.json* en obsels dans le fichier *output.json*
+* `node transform.js input.json -o foo.json` : le paramètre *-o* permet de spécifier une sortie
+* `node transform.js input.json -api http://example.com` : le paramètre *-api* permet de spécifier la destination du *json* en `HTTP:POST`
 
 ### Mise en place des transformations <a name="markdown-header-mise-en-place-des-transformations"></a>
 Nous avons choisi d'analyser le minage des ressources précieuses du jeu.
