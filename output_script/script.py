@@ -49,15 +49,17 @@ for i in range(len(obsels) - 1, -1, -1):
             max_z = obsels[i]['m:z']
         centers.append([[obsels[i]['m:x'], obsels[i]['m:y']], [obsels[i]['m:x'] + 1, obsels[i]['m:y']], [obsels[i]['m:x'] + 1, obsels[i]['m:y'] + 1], [obsels[i]['m:x'], obsels[i]['m:y'] + 1]] )
         if obsels[i]["m:itemName"] == "DIAMOND":
-            colorsarray.append("lightblue")
-        if obsels[i]["m:itemName"] == "REDSTONE":
+            colorsarray.append("blue")
+        elif obsels[i]["m:itemName"] == "REDSTONE":
             colorsarray.append("red")
-        if obsels[i]["m:itemName"] == "GOLD":
+        elif obsels[i]["m:itemName"] == "GOLD":
             colorsarray.append("yellow")
-        if obsels[i]["m:itemName"] == "IRON_ORE":
+        elif obsels[i]["m:itemName"] == "IRON_ORE":
             colorsarray.append("grey")
-        if obsels[i]["m:itemName"] == "COAL":
+        elif obsels[i]["m:itemName"] == "COAL":
             colorsarray.append("black")
+        else : centers.pop(-1)
+        #colorsarray.append("white")
 
 
 # Generate data. In this case, we'll make a bunch of center-points and generate
