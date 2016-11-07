@@ -3,12 +3,18 @@ import matplotlib.pyplot as plt
 from matplotlib.collections import PolyCollection
 import matplotlib as mpl
 import json
+import argparse
 
+parser = argparse.ArgumentParser(description='Plot Minecraft Obsels in 2D.')
+parser.add_argument('obsels_file', metavar='N', type=str,
+                    help='the path to the file containing the obsels')
+
+args = parser.parse_args()
 
 
 # OPEN THE JSON FILE CONTAINING THE OBSELS
-with open('obselsFusion.json') as obsels_file:
-    obsels = json.load(obsels_file)
+with open(args.obsels_file) as obselsJson:
+    obsels = json.load(obselsJson)
 
 # print(obsels)
 

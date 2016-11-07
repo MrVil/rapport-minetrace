@@ -7,11 +7,18 @@ import json
 fig = plt.figure()
 ax = fig.gca(projection='3d')
 # ax.set_aspect("equal")
+import argparse
+
+parser = argparse.ArgumentParser(description='Plot Minecraft Obsels in 2D.')
+parser.add_argument('obsels_file', metavar='N', type=str,
+                    help='the path to the file containing the obsels')
+
+args = parser.parse_args()
 
 
 # OPEN THE JSON FILE CONTAINING THE OBSELS
-with open('obselsFusion.json') as obsels_file:
-    obsels = json.load(obsels_file)
+with open(args.obsels_file) as obselsJson:
+    obsels = json.load(obselsJson)
 
 color = "black"
 
@@ -54,11 +61,11 @@ for i in range(len(obsels) - 1, -1, -1):
 
 #ax.scatter3D(points[:, 0], points[:, 1], points[:, 2])
 ax.set_xlabel('X')
-ax.set_ylabel('Y')
-ax.set_zlabel('Z')
+ax.set_ylabel('Z')
+ax.set_zlabel('Y')
 plt.show()
 
-print(obsels)
+#print(obsels)
 
 #draw cube
 #r = [-10, 1]
