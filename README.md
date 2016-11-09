@@ -8,7 +8,6 @@ Par [Bastien Guyl](http://bastien.guyl.me) et [Marc Zominy](https://github.com/z
 * [Mise en place des transformations](#markdown-header-mise-en-place-des-transformations)
 * [Visualisation des données](#markdown-header-visualisation-des-données)
 * [Analyse des données](#markdown-header-analyse-des-données)
-* [Conclusion](#markdown-header-conclusion)
 
 ### Présentation du projet <a name="markdown-header-présentation-du-projet"></a>
 Ceci est le rapport d'un [projet](http://liris.cnrs.fr/~pchampin/2016/m2ia-knodyn/project.html) de cours de *Dynamique des connaissances* en Master 2 en Intelligence Artificielle de l'Université Claude Bernard Lyon 1.
@@ -281,7 +280,8 @@ La couleur correspond au type du bloc.
 
 
 ### Analyse des données <a name="markdown-header-analyse-des-données"></a>
-TODO
-
-### Conclusion <a name="markdown-header-conclusion"></a>
-TODO
+A partir des graphiques précedents, nous pouvons déduire plusieurs informations :
+* Le charbon, en noir, est présent à tous les niveaux.
+* Le fer, en gris, n'est présent en quantité qu'à partir de la couche 40 enriron.
+* La redstone et le diamant, respectivement rouge et bleu, ne sont disponibles que dans les couches basses.
+* Entre les couches 40 et 60, les joueurs minent peu. On peut supposer que ce sont des zone peu profitables, difficiles d'accès pour peu de ressources.
