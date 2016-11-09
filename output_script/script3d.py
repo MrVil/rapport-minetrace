@@ -22,8 +22,27 @@ with open(args.obsels_file) as obselsJson:
 
 
 # BROWSE THE OBSELS AND PLOT THE INTERESTING ONES (GOLD, DIAMOND AND REDSTONE)
+min_x = 1000
+max_x = -1000
+min_y = 1000
+max_y = -1000
+min_z = 1000
+max_z = -1000
+
 for i in range(len(obsels)):
     if obsels[i]["m:itemName"] in {"DIAMOND","REDSTONE","GOLD","IRON_ORE","COAL"}:
+        if obsels[i]["m:x"] < min_x :
+            min_x = obsels[i]["m:x"]
+        if obsels[i]["m:x"] > max_x :
+            max_x = obsels[i]["m:x"]
+        if obsels[i]["m:y"] < min_y :
+            min_y = obsels[i]["m:y"]
+        if obsels[i]["m:y"] > max_y :
+            max_y = obsels[i]["m:y"]
+        if obsels[i]["m:z"] < min_z :
+            min_z = obsels[i]["m:z"]
+        if obsels[i]["m:z"] > max_z :
+            max_z = obsels[i]["m:z"]
         if obsels[i]["m:itemName"] == "DIAMOND":
             color = "blue"
         elif obsels[i]["m:itemName"] == "REDSTONE":
@@ -48,4 +67,7 @@ for i in range(len(obsels)):
 ax.set_xlabel('X')
 ax.set_ylabel('Z')
 ax.set_zlabel('Y')
+ax.set_xlim([min_x - 1, max_x + 2])
+ax.set_ylim([min_z - 1, max_z + 2])
+ax.set_zlim([min_y - 1, max_y + 2])
 plt.show()

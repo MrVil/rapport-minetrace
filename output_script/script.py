@@ -21,8 +21,21 @@ with open(args.obsels_file) as obselsJson:
 centers = []
 colorsarray = []
 
+min_x = 1000
+max_x = -1000
+min_y = 1000
+max_y = -1000
+
 for i in range(len(obsels)):
     if obsels[i]["m:itemName"] in {"DIAMOND","REDSTONE","GOLD","IRON_ORE","COAL"}:
+        if obsels[i]["m:x"] < min_x :
+            min_x = obsels[i]["m:x"]
+        if obsels[i]["m:x"] > max_x :
+            max_x = obsels[i]["m:x"]
+        if obsels[i]["m:y"] < min_y :
+            min_y = obsels[i]["m:y"]
+        if obsels[i]["m:y"] > max_y :
+            max_y = obsels[i]["m:y"]        
         centers.append([[obsels[i]['m:x'], obsels[i]['m:y']], [obsels[i]['m:x'] + 1, obsels[i]['m:y']], [obsels[i]['m:x'] + 1, obsels[i]['m:y'] + 1], [obsels[i]['m:x'], obsels[i]['m:y'] + 1]] )
         if obsels[i]["m:itemName"] == "DIAMOND":
             colorsarray.append("blue")
@@ -41,7 +54,12 @@ fig, ax = plt.subplots()
 
 
 # Make the collection and add it to the plot.
-coll = PolyCollection(centers, edgecolors='black', facecolors=colorsarray)
+
+coll = PolyCollection(centers, edgecolors="none", facecolors=colorsarray)
 ax.add_collection(coll)
-ax.autoscale_view()
+#ax.autoscale_view()
+ax.set_xlim([min_x - 1, max_x + 2])
+ax.set_ylim([min_y - 1, max_y + 2])
+ax.set_xlabel('X')
+ax.set_ylabel('Y')
 plt.show()
