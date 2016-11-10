@@ -265,16 +265,16 @@ Et voici sa description en JSON pour l'utilisation de FSA4stream :
 ### Visualisation des données <a name="markdown-header-visualisation-des-données"></a>
 Pour visualiser les données, des scripts python sont disponibles dans le répertoire [output_script](https://github.com/MrVil/rapport-minetrace/tree/master/output_script/).
 
-Pour le lancer, il est nécessaire d'installer [Python3.5.X](https://www.python.org/) et [Numpy](http://www.numpy.org/)
+Pour le lancer, il est nécessaire d'installer [Python3.5.X](https://www.python.org/), [Numpy](http://www.numpy.org/) et [Matplotlib](http://matplotlib.org/).
 
-`python script.py`
+`python script.py nom_du_fichier_obsels.json`
 
 ![Résultat du script 2D](result.png)
 
 Nous avons en axis, la position en X et en ordonné la position en Y (profondeur) du bloc miné. 
 La couleur correspond au type du bloc.
 
-`python script3d.py`
+`python script3d.py nom_du_fichier_obsels.json`
 
 ![Résultat du script 3D](result3d.png)
 
